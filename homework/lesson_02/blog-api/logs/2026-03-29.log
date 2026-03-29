@@ -1,0 +1,20 @@
+[GIN-debug] POST   /api/register             --> blog-api/internal/router.SetupRouter.Register.func2 (6 handlers)
+[GIN-debug] POST   /api/login                --> blog-api/internal/router.SetupRouter.Login.func3 (6 handlers)
+[GIN-debug] GET    /api/posts                --> blog-api/internal/router.SetupRouter.ListPosts.func4 (6 handlers)
+[GIN-debug] GET    /api/posts/:id            --> blog-api/internal/router.SetupRouter.GetPost.func5 (6 handlers)
+[GIN-debug] GET    /api/posts/:id/comments   --> blog-api/internal/router.SetupRouter.ListCommentsByPostID.func6 (6 handlers)
+[GIN-debug] POST   /api/posts                --> blog-api/internal/router.SetupRouter.CreatePost.func8 (7 handlers)
+[GIN-debug] PUT    /api/posts/:id            --> blog-api/internal/router.SetupRouter.UpdatePost.func9 (7 handlers)
+[GIN-debug] DELETE /api/posts/:id            --> blog-api/internal/router.SetupRouter.DeletePost.func10 (7 handlers)
+[GIN-debug] POST   /api/comments             --> blog-api/internal/router.SetupRouter.CreateComment.func11 (7 handlers)
+[GIN-debug] DELETE /api/comments/:id         --> blog-api/internal/router.SetupRouter.DeleteComment.func12 (7 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://github.com/gin-gonic/gin/blob/master/docs/doc.md#dont-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+2026-03-29 10:29:23 | GET | /api/posts | 127.0.0.1 | 200 | 5.983675ms
+2026-03-29 10:29:23 | GET | /favicon.ico | 127.0.0.1 | 404 | 150ns
+2026-03-29 10:29:37 | GET | /api/post/1 | 127.0.0.1 | 404 | 120ns
+2026-03-29 10:29:44 | GET | /api/posts/1 | 127.0.0.1 | 404 | 1.969158ms
+2026-03-29 10:29:44 | GET | /favicon.ico | 127.0.0.1 | 404 | 311ns
+2026-03-29 10:29:51 | GET | /api/posts/1 | 127.0.0.1 | 404 | 398.378µs
+2026-03-29 10:29:51 | GET | /favicon.ico | 127.0.0.1 | 404 | 140ns
